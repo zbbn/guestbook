@@ -1,0 +1,11 @@
+runtime: nodejs10
+
+#env: flex
+
+env_variables:
+  SQL_USER: root
+  SQL_PASSWORD: abc123
+  SQL_DATABASE: guestbook
+  INSTANCE_CONNECTION_NAME: shining-domain-250307:europe-north1:garderob
+beta_settings:
+  cloud_sql_instances: shining-domain-250307:europe-north1:garderob

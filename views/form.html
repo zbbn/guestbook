@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Antons guestbook</title>
+  </head>
+  <body>
+    <h1>Antons guestbook</h1>
+    <p>Feel free to post anything. Please, no SQL injections :)</p>
+    <form method="POST" action="/submit">
+      <div>
+        <input type="text" name="name" placeholder="Name">
+      </div>
+      <div>
+        <textarea name="message" placeholder="Message"></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
